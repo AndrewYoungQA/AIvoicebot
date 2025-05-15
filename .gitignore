@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.env.*
+.env copy
+
+# Logs and other generated files
+logs/
+*.log
+conversation_analyzer.log
+
+# Data and reports (if generated and not needed in repo)
+conversation_reports.xlsx
+
+# OS-specific files
+.DS_Store
+
+# Optional: Virtual environment directories (if using Python virtualenv)
+venv/
+.env/
+
+# Optional: Coverage and test reports
+coverage/
+*.cover
+*.coverage
+.coverage.*
+
+# Optional: Distribution / Build directories
+dist/
+build/
